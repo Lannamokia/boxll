@@ -1,6 +1,7 @@
 name: Build APKs
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
